@@ -21,14 +21,14 @@ Please refer to this project either via this repository or via the paper it was 
 
 Philipp Mundhenk, Florian Sagstetter, Sebastian Steinhorst, Martin Lukasiewycz, Samarjit Chakraborty. "Policy-based Message Scheduling Using FlexRay". In: Proceedings of the 12th International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2014). India, pp. 19:1–19:10. DOI: 10.1145/2656075.2656094
 
-BibTeX:
-@inproceedings{msslc:2014,
-	url = { https://lukasiewycz.github.io/pdf/2014-CODES%2BISSS-Policy-based%20Message%20Scheduling%20Using%20FlexRay.pdf },
-	doi = { 10.1145/2656075.2656094 },
-	pages = { 19:1--19:10 },
-	year = { 2014 },
-	location = { India },
-	booktitle = { Proceedings of the 12th International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2014) },
-	author = { Philipp Mundhenk and Florian Sagstetter and Sebastian Steinhorst and Martin Lukasiewycz and Samarjit Chakraborty },
-	title = { Policy-based Message Scheduling Using FlexRay },
+BibTeX: 
+@inproceedings{msslc:2014, 
+	url = { https://lukasiewycz.github.io/pdf/2014-CODES%2BISSS-Policy-based%20Message%20Scheduling%20Using%20FlexRay.pdf }, 
+	doi = { 10.1145/2656075.2656094 }, 
+	pages = { 19:1--19:10 }, 
+	year = { 2014 }, 
+	location = { India }, 
+	booktitle = { Proceedings of the 12th International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2014) }, 
+	author = { Philipp Mundhenk and Florian Sagstetter and Sebastian Steinhorst and Martin Lukasiewycz and Samarjit Chakraborty }, 
+	title = { Policy-based Message Scheduling Using FlexRay }, 
 }
