@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project FIBEX2.0.1 with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+	
+	<echo>Java Version via Ant: ${ant.java.version}</echo> 
+	<echo>Java Version System Prop: ${java.version}</echo> 
+		
+    <target name="create_run_jar">
+        <jar destfile="../../ScheduleCreator/lib/FIBEX2_0_1.jar">
+            <manifest>
+                <attribute name="Main-Class" value="test.Test"/>
+                <attribute name="Class-Path" value=". FIBEX2_0_1_lib/FIBEX2.0.1_generated.jar FIBEX2_0_1_lib/xbean.jar FIBEX2_0_1_lib/FIBEX.jar"/>
+            </manifest>
+            <fileset dir="../../FIBEX2.0.1/bin"/>
+        </jar>
+        <delete dir="../../ScheduleCreator/lib/FIBEX2_0_1_lib"/>
+        <mkdir dir="../../ScheduleCreator/lib/FIBEX2_0_1_lib"/>
+        <copy file="../../FIBEX2.0.1/lib/FIBEX2.0.1_generated.jar" todir="../../ScheduleCreator/lib/FIBEX2_0_1_lib"/>
+        <copy file="../../../xmlbeans-2.5.0/lib/xbean.jar" todir="../../ScheduleCreator/lib/FIBEX2_0_1_lib"/>
+        <copy file="../../FIBEX/bin/lib/FIBEX.jar" todir="../../ScheduleCreator/lib/FIBEX2_0_1_lib"/>
+    </target>
+</project>

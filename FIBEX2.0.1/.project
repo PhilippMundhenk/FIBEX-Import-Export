@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FIBEX2.0.1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/FIBEX.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/FIBEX/bin/lib/FIBEX.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/xbean.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/xmlbeans-2.5.0/lib/xbean.jar</locationURI>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>C</name>
+			<value></value>
+		</variable>
+	</variableList>
+</projectDescription>
