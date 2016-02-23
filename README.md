@@ -21,7 +21,7 @@ Please refer to this project either via this repository or via the paper it was 
 
 Philipp Mundhenk, Florian Sagstetter, Sebastian Steinhorst, Martin Lukasiewycz, Samarjit Chakraborty. "Policy-based Message Scheduling Using FlexRay". In: Proceedings of the 12th International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS 2014). India, pp. 19:1–19:10. DOI: 10.1145/2656075.2656094
 
-BibTeX: <br />
+### BibTeX: <br />
 @inproceedings{msslc:2014, <br />
 	doi = { 10.1145/2656075.2656094 }, <br />
 	pages = { 19:1--19:10 }, <br />
