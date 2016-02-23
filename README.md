@@ -1,4 +1,4 @@
-# FIBEX-Import-Export
+# FIBEX Import/Export
 A simple import and export tool for FIBEX files to Java objects. Currently FIBEX version 2.0.1 is supported.
 
 ## Requirements
